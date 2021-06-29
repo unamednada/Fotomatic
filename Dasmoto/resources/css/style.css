@@ -1,0 +1,57 @@
+/* UNIVERSAL STYLES */
+
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 48px 12px;
+    font-family: Helvetica;
+}
+
+img {
+    height: 300px;
+}
+
+.title,
+a {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 114px;
+    color: khaki;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.heading {
+    font-size: 32px;
+    color: white;
+}
+
+/* HEADER SPECIFIC */
+.header {
+    background-image: url("../images/pattern.jpeg");
+    text-align: center;
+}
+
+/* SECTIONS SPECIFICS */
+
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paint h2 {
+    background-color: skyblue;
+}
+
+
+
