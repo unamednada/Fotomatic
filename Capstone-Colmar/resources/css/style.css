@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    border: solid 1px red;
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: Helvetica;
+    color: rgb(59, 59, 59); 
+}
+
+nav.header {
+    font-size: 20px;
+    height: 64px;
+    padding: 12px 24px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.header li {
+    padding-left: 16px;
+    display: inline;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+h2,
+h3 {
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    color: grey;
+}
+
+.container {
+    margin-top: 64px;
+}
+
+.big {
+    margin: 32px 24px;
+}
+
+.button {
+    padding: 8px 0;
+}
+h2.center {
+    text-align: center;
+}
+
+#footer li,
+li p {
+    font-size: 18px;
+    display: inline;
+}
+
+#courses li {
+    display: inline-block;
+}
+
+.left img,
+.left video,
+.left h2,
+.left h3,
+.left p {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.right h1,
+.right p,
+.right li {
+    width: 40%;
+}
+
+.col {
+    display: inline-block;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
