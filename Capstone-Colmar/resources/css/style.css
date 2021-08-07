@@ -1,3 +1,51 @@
+/* Import rules */
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+/* General rules */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 img {
   max-width: 300px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+html {
+  font-size: 12px;
+  font-family: 'Gowun Dodum';
+}
+
+/* Header rules */
+
+header {
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+#logo {
+  align-items: center;
+  height: 50%;
+  margin-left: 24px;
+}
+
+nav {
+  margin-right: 24px;
+  align-items: center;
+}
+
+nav p {
+  display: none;
+}
+
+nav a {
+  max-width: 20%;
+  margin: 0 3%;
 }
