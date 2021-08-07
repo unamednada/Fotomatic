@@ -36,6 +36,15 @@ header {
   margin-left: 24px;
 }
 
+#logo p {
+  font-size: 1.2rem;
+  margin: 0 2%;
+}
+
+#logo strong {
+  margin: 0 1.2%;
+}
+
 nav {
   margin-right: 24px;
   align-items: center;
