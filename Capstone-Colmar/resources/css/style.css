@@ -13,6 +13,9 @@ main img {
   max-width: 80%;
 }
 
+aside img {
+  display: none;
+}
 .flex-container {
   display: flex;
 }
@@ -31,13 +34,30 @@ main {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 h2 {
   font-size: 1.8rem;
-  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.6rem;
+  margin: 3% 0;
+}
+
+h4 {
+  font-size: 1.4rem;
 }
 
 main .flex-container {
   flex-direction: column;
+}
+
+nav p,
+#info-banner p {
+  display: none;
 }
 
 /* Header rules */
@@ -54,8 +74,8 @@ header {
   margin-left: 24px;
 }
 
-#logo p {
-  font-size: 1.2rem;
+p {
+  font-size: 1.4rem;
   margin: 0 2%;
 }
 
@@ -67,10 +87,6 @@ header {
 nav {
   margin-right: 24px;
   align-items: center;
-}
-
-nav p {
-  display: none;
 }
 
 nav a {
@@ -97,4 +113,44 @@ nav a {
   width: 80%;
   margin-top: 4%;
   font-weight: 800;
+  font-size: 1.4rem;
+}
+
+/* Information rules */
+
+#info .text-content {
+  border-top: 1px solid grey;
+  padding: 4% 0;
+}
+
+/* Courses rules */
+
+#courses {
+  background-color: lightgray;
+  padding: 5% 0;
+  color: rgb(54, 54, 54);
+}
+
+#courses img {
+  margin: 2% 0;
+  max-width: 60%;
+}
+
+#courses h4 {
+  margin-bottom: 2%;
+}
+
+#courses p {
+  display: none;
+}
+
+#courses .flex-container {
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#courses .flex-div {
+  max-width: 350px;
 }
