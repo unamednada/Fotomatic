@@ -51,6 +51,12 @@ h4 {
   font-size: 1.4rem;
 }
 
+h2,
+h3,
+h4 {
+  color: rgb(54, 54, 54);
+}
+
 main .flex-container {
   flex-direction: column;
 }
@@ -97,7 +103,7 @@ nav a {
 /* Banner rules */
 
 #banner {
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.4);
   color: rgb(54, 54, 54);
 }
 
@@ -127,13 +133,13 @@ nav a {
 }
 
 aside article:nth-child(2n+1){
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.4);
 }
 
 /* Courses rules */
 
 #courses {
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.4);
   color: rgb(54, 54, 54);
 }
 
@@ -178,7 +184,7 @@ aside article:nth-child(2n+1){
 
 #thesis img {
   display: inline-block;
-  height: 180px;
+  max-height: 160px;
   margin: 2% 0;  
 }
 
@@ -187,11 +193,11 @@ aside article:nth-child(2n+1){
 }
 
 aside .padding:nth-child(2n+1) {
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.4);
 }
 
 footer {
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.4);
 }
 
 footer .flex-container {
@@ -200,5 +206,81 @@ footer .flex-container {
 }
 
 footer a {
-  margin: 1% 3%;
+  margin: 0 3%;
+}
+
+/* Ipad rules */
+
+@media only screen and (min-width: 760px) {
+
+  html {
+    font-size: 16px;
+  }
+
+  .padding {
+    padding: 10% 0;
+  }
+
+  aside img {
+    display: inline-block;
+    margin: 5% 0;
+    max-width: 80%;
+  }
+
+  #banner h2 {
+    margin: 5% 0;
+    font-size: 2.4rem;
+  }
+
+  #info p {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+
+  #info-banner p {
+    display: inline-block;
+    margin-bottom: 5%;
+    max-width: 80%;
+  }
+
+  .bottom-note {
+    font-size: 1rem;
+    color:rgb(54, 54, 54);
+  }
+  
+  aside article {
+    max-width: 50%;
+    background-color: white !important;
+  }
+
+  aside.flex-container {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  #info {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  #courses .flex-container {
+    align-content: center;
+  }
+
+  #courses p {
+    display: inherit;
+    font-size: 1rem;
+    max-width: 60%;
+    min-height: 100px;
+  }
+
+  #courses .text-content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  
 }
