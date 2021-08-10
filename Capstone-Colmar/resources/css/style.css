@@ -454,9 +454,20 @@ footer a {
 
   #courses .flex-div {
     background-color: white;
-    max-width: 20%;
-    margin: 2% 5%;
+    max-width: 23%;
+    margin: 2% 2%;
     height: 300px;
+  }
+
+  #courses h5 {
+    display: inline-block;
+    margin-bottom: 2%;
+    color: darkgray;
+  }
+
+  #courses p {
+    max-width: 100%;
+    font-size: 1rem;
   }
 
   #courses img {
