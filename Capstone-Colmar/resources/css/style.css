@@ -412,19 +412,43 @@ footer a {
   aside article {
     max-width: 100%;
     flex-flow: row nowrap !important;
-    margin-left: 4%;
+    align-items: flex-start !important;
+  }
+
+  aside article:nth-child(n) {
+    min-height: unset;
+    padding-left: 5%;
+  }
+
+  aside article:last-child {
+    background-color: rgba(211, 211, 211, 0.4) !important;
+    padding: 5% 0 0 5%;
   }
 
   #info article img {
     width: 100%;
-    height: auto;
+    height: 75%;
   }
 
   #info .text-content {
-    max-width: 50%;
+    max-width: 65%;
+    align-items: flex-start;
+    margin-left: 2%;
   }
 
   aside .image-container {
-    width: 35%;
+    max-width: 35%;
+    height: 100%;
+  }
+
+  aside img {
+    margin: 0;
+  }
+
+  aside p {
+    margin: 0;
+    text-align: start;
+    font-style: normal !important;
+    font-size: .9rem !important;
   }
 }
