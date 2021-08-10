@@ -130,6 +130,12 @@ nav a {
 
 #info .text-content {
   padding: 4% 0;
+  max-width: 300px;
+}
+
+aside article:nth-child(n){
+  min-height: 130px;
+  align-items: center;
 }
 
 aside article:nth-child(2n+1){
