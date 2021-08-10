@@ -358,6 +358,10 @@ footer a {
     max-width: 50%;
   }
 
+  #banner div:last-child {
+    max-width: 40%;
+  }
+
   #banner img {
     max-width: 90%;
   }
