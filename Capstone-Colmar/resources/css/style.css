@@ -418,6 +418,7 @@ footer a {
   aside article:nth-child(n) {
     min-height: unset;
     padding-left: 5%;
+    margin-right: 2%;
   }
 
   aside article:last-child {
@@ -474,4 +475,31 @@ footer a {
     max-width: 100%;
     margin: 0;
   }
+
+  #thesis article {
+    max-width: 60%;
+  }
+
+  #thesis .flex-div {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    align-items: flex-start;
+    height: 125px;
+    margin-right: 2%;
+    margin-top: 3%;
+  }
+
+  #thesis article .text-content p {
+    max-width: 85%;
+  }
+
+  #thesis aside .text-content {
+    text-align: left;
+  }
+
+  aside .padding:last-child {
+    background-color: white;
+  }
+
 }
