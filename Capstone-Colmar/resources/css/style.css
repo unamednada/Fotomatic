@@ -451,4 +451,16 @@ footer a {
     font-style: normal !important;
     font-size: .9rem !important;
   }
+
+  #courses .flex-div {
+    background-color: white;
+    max-width: 20%;
+    margin: 2% 5%;
+    height: 300px;
+  }
+
+  #courses img {
+    max-width: 100%;
+    margin: 0;
+  }
 }
