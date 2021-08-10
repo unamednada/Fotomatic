@@ -152,7 +152,8 @@ aside article:nth-child(2n+1){
   margin-bottom: 2%;
 }
 
-#courses p {
+#courses p,
+#courses h5 {
   display: none;
 }
 
@@ -283,4 +284,34 @@ footer a {
     align-items: center;
   }
   
+  .video-container img {
+    width: 700px;
+    max-height: 100% !important;
+  }
+
+  #thesis .text-content p {
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 2%;
+  }
+
+  aside .padding:nth-child(n) {
+    background-color: rgba(211, 211, 211, 0.4);
+    min-width: 50%;
+  }
+
+  footer.padding {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  footer .flex-container {
+    min-width: 50%;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
 }
